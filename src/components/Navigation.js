@@ -53,7 +53,7 @@ const Navigation = () => {
         </button>
       </div>
       {isMobile && (
-        <div className="w-full h-[100vh] absolute top-0 left-0 ">
+        <div className="w-full h-[100vh] absolute top-0 left-0 z-10 ">
           <ul className="flex items-center justify-center flex-col w-[70%] h-[100vh] bg-white shadow-lg md:hidden">
             {Object.keys(NavLinks).map((link, _idx) => {
               return (

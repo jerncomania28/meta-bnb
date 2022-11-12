@@ -1,11 +1,12 @@
 //components
 import Navigation from "../components/Navigation";
+import HeroSection from "../components/HeroSection";
 
 const Home = () => {
   return (
     <div className="w-full relative">
       <Navigation />
-      <div>Hero Section</div>
+      <HeroSection />
     </div>
   );
 };
