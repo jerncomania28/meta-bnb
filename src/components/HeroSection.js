@@ -5,8 +5,8 @@ const HeroSection = () => {
   return (
     <section className="w-full relative px-6 flex flex-col justify-center items-center md:w-[90%] md:mx-auto md:flex-row">
       {/* hero section text  --start*/}
-      <div className="flex flex-col justify-center w-full relative mb-4 md:w-[50%] md:mb-auto">
-        <h1 className="text-[56px] font-[700] text-[#434343] mb-3">
+      <div className="flex flex-col justify-center w-full relative mb-4 md:w-[50%] md:mr-4 md:mb-auto">
+        <h1 className="text-[50px] font-[700] text-[#434343] mb-3">
           Rent a <span className="text-[#A02279]">Place</span> away from{" "}
           <span className="text-[#A02279]">Home</span> in the{" "}
           <span className="text-[#A02279]">Metaverse</span>
