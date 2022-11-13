@@ -3,6 +3,7 @@ import Navigation from "../components/Navigation";
 import HeroSection from "../components/HeroSection";
 import Footer from "../components/Footer";
 import Ribbon from "../components/Ribbon";
+import Inspiration from "../components/Inspiration";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Navigation />
       <HeroSection />
       <Ribbon />
+      <Inspiration />
       <Footer />
     </div>
   );
