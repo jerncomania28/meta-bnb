@@ -21,7 +21,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="w-full py-8 relative mt-6 bg-[#1D1D1E]">
+    <footer className="w-full py-8 relative bg-[#1D1D1E]">
       <div className="flex flex-col justify-center items-center w-[80%] mx-auto relative ">
         <div className="flex justify-between items-start flex-col w-full my-2 md:flex-row">
           <div className="flex justify-between items-start flex-col relative mb-4">
